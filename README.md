@@ -1,1 +1,1 @@
-# renewable-energy-app
+# Renewable Energy App
