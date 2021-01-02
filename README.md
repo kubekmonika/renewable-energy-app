@@ -6,7 +6,21 @@ TODO
 
 ## Technical information
 
-TODO
+### How to docker
+
+First step is to build the image.
+
+```bash
+docker build -t renewable-energy-app:0.0.1 /path/to/Dockerfile
+```
+
+Second step is to run the image in a container.
+
+```bash
+docker run -d -p 5000:5000 renewable-energy-app:0.0.1
+```
+
+Finally, open the `http://localhost:5000` URL in your browser or run a `curl http://localhost:5000` command.
 
 ## Resources
 
